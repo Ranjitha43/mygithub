@@ -1,0 +1,66 @@
+.row
+{
+	font-size: 0.90em;
+	font-weight: bold;
+	font-family: "Lucida Console", Courier, monospace;
+    background-color: #66c2ff;
+}
+
+#collapsibleNavbar .nav-link
+{
+	border: 1px solid #000;
+	background-color:  #C1FF33;
+	font-weight: bold;
+}
+
+.navbar-toggler
+{
+	border: 10px solid ;
+	border-bottom-color: black;
+}
+
+.navbar-brand
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.navbar-expand-md
+{
+border: 3px solid black;
+}
+
+.row
+{
+	margin: 0px 10px 20px;
+}
+
+h2
+{
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+h5
+{
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px)
+{
+	.row
+	{
+		margin-left: 60px;
+		margin-right: 50px;
+	}
+}
+@media(min-width:767px)
+{
+	.navbar-nav 
+	{
+		visibility: hidden;
+
+	}
+}
